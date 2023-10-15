@@ -1,0 +1,16 @@
+@media (max-width:900px) {
+    .menu-bar i {
+        display: block;
+    }
+
+    header nav {
+        display: none;
+    }
+}
+
+
+@media (max-width:500px) {
+    .grid-box{
+        grid-template-columns: repeat(2, minmax(min-content, 400px));
+    }
+}
