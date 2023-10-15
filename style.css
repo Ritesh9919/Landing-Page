@@ -159,3 +159,57 @@ header {
 
 
 /* =========== Section 1 styling end =================== */
+
+
+/*  ================Section 2 ================= */
+.section-2 h3{
+  text-align: center;
+  font-size:1.2rem;
+  margin-top: 15px;
+}
+
+.section-2 .images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    margin-top: 20px;
+}
+
+.section-2 .images img{
+   width:130px;
+}
+
+/* ================= Section 3 =============== */
+
+.grid-box{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(min-content, 400px));
+  grid-template-rows: repeat(3, minmax(min-content, 300px));
+  justify-content: center;
+  gap:25px;
+  
+  
+  
+  
+}
+
+.grid-item{
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 0 5px 0px gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:40px;
+  background-color: rgb(252, 251, 251);
+  border-radius: 5px;
+}
+
+
+
+.center-text{
+  text-align: center;
+  margin-top: 50px;
+}
